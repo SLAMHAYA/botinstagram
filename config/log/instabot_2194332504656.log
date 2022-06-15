@@ -1,0 +1,14 @@
+2022-06-14 21:05:37,542 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-06-14 21:05:37,543 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Python39\lib\site-packages\instabot\bot\bot.py
+2022-06-14 21:05:37,543 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-06-14 21:05:37,767 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2022-06-14 21:05:37,996 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-06-14 21:05:38,203 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-06-14 21:05:38,400 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2022-06-14 21:05:41,116 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-06-14 21:05:41,117 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXHSmdXs21aAl9XUpI9kcsEgWjK5UliFvaj8klj0mAAY7oVVp-iJLTriEV8jESOuOM4bLVo/dbSyUq5Dp7oxuWJe/","api_path":"/challenge/AXHSmdXs21aAl9XUpI9kcsEgWjK5UliFvaj8klj0mAAY7oVVp-iJLTriEV8jESOuOM4bLVo/dbSyUq5Dp7oxuWJe/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2022-06-14 21:05:41,117 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-06-14 21:05:41,118 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2022-06-14 21:05:41,119 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
+2022-06-14 21:05:42,234 - instabot version: 0.117.0 (api_photo) - ERROR - Photo does not have a compatible photo aspect ratio.
+2022-06-14 21:05:42,235 - instabot version: 0.117.0 (bot_photo) - INFO - Photo './Karim benzema/0.jpg' is not uploaded.
